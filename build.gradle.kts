@@ -25,8 +25,8 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-actuator")
 
     // Kotlin
-    implementation("jakarta.annotation:jakarta.annotation-api:2.1.1")
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+    implementation("jakarta.annotation:jakarta.annotation-api:3.0.0")
+    implementation("tools.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
     implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
@@ -50,8 +50,7 @@ extra["kotlin.version"] = "2.4.0"
 
 dependencyManagement {
     imports {
-        mavenBom("org.springframework.vault:spring-vault-dependencies:3.0.0")
-        mavenBom("org.springframework.boot:spring-boot-dependencies:3.5.15")
+        mavenBom("org.springframework.boot:spring-boot-dependencies:4.1.0")
     }
 }
 

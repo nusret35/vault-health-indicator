@@ -13,6 +13,7 @@ plugins {
 }
 
 group = "com.valensas.data"
+version = "4.0.1"
 java.sourceCompatibility = JavaVersion.VERSION_21
 
 repositories {
@@ -50,6 +51,7 @@ extra["kotlin.version"] = "2.4.0"
 dependencyManagement {
     imports {
         mavenBom("org.springframework.boot:spring-boot-dependencies:4.1.0")
+        mavenBom("org.springframework.vault:spring-vault-core:4.1.0")
     }
 }
 

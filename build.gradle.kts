@@ -13,7 +13,7 @@ plugins {
 }
 
 group = "com.valensas.data"
-java.sourceCompatibility = JavaVersion.VERSION_21
+java.sourceCompatibility = JavaVersion.VERSION_25
 
 repositories {
     mavenCentral()
